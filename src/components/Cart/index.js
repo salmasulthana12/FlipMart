@@ -5,10 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Cart = () => {
   const navigate = useNavigate();
   const [total, setTotal] = useState(0);
-  const cart = useMemo(
-    () => JSON.parse(localStorage.getItem("cart")) || [],
-    []
-  );
+  const cart=JSON.parse(localStorage.getItem("cart")) || []
 
   useEffect(() => {
     const total = cart.reduce((acc, item) => {
@@ -50,6 +47,9 @@ const Cart = () => {
     localStorage.setItem("cart", JSON.stringify(updatedCart));
     navigate("/cart");
   };
+  const handleBack =() =>{
+    navigate('/')
+  }
 
   if (cart.length === 0) {
     <div>Cart is Empty</div>;
@@ -112,7 +112,7 @@ const Cart = () => {
                 ))}
               </table>
               <div className="btn">
-                <button className="cont-btn">
+                <button className="cont-btn" onClick={handleBack}>
                   <i className="fa-solid fa-arrow-left"></i> Continue Shopping
                 </button>
               </div>
