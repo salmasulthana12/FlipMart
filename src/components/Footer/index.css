@@ -1,0 +1,24 @@
+.footer-section{
+    margin-top: 3rem;
+    background-color: whitesmoke;
+    color: #222;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+}
+
+/* .footer-section {
+    background: whitesmoke;
+    height: 30px;
+    margin: auto;
+    text-align:center;
+    padding:10px;
+    color:#222;
+    position: absolute;
+} */

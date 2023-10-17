@@ -1,0 +1,31 @@
+/* Add this to your CSS file or a styled-components solution */
+.hero {
+    background-image: url('https://www.oxford-web.co.uk/wp-content/uploads/2020/06/Shopping-online-concept-shopping-cart-or-trolley-on-a-laptop-keyboard.-Shopping-service-on-The-online-web.-1164181522_5820x3880.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    
+  padding-bottom: 60px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+ 
+  

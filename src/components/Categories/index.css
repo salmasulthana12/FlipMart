@@ -1,0 +1,20 @@
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 6.5rem;
+}
+.category-card {
+  margin-top: 5%;
+}
+.category-btn {
+  height: 35px;
+  width: 130px;
+  cursor: pointer;
+}
+.category-btn:hover{
+  background-color: #b38ae9;
+  cursor: pointer;
+  border: 2px #fff solid;
+}
